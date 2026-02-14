@@ -1,9 +1,9 @@
 import React from 'react'
 
-const visualizer.$id = () => {
+const VisualizerId = () => {
   return (
-    <div>visualizer.$id</div>
+    <div>VisualizerId</div>
   )
 }
 
-export default visualizer.$id
+export default VisualizerId
