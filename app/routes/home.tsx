@@ -89,7 +89,7 @@ export default function Home() {
             </div>
             <div className="projects-grid">
               {projects.map(({id,name,renderedImage, sourceImage, timestamp})=>(
-                 <div className="project-card group">
+                 <div className="project-card group" key={id}>
                     <div className="preview">
                       <img src={renderedImage || sourceImage} alt="project" />
                       <div className="badge">
@@ -113,14 +113,14 @@ export default function Home() {
               ))}
                 <div className="project-card group">
                     <div className="preview">
-                      <img src="https://roomai-mlhuk267-dfwu1i.puter.site/projects/1770803585402/rendered.png" alt="project" />
+                      <img src="https://roomify-mlhuk267-dfwu1i.puter.site/projects/1770803585402/rendered.png" alt="project" />
                       <div className="badge">
                         <span>Community</span>
                       </div>
                     </div>
                      <div className="card-body">
                         <div>
-                          <h3>Project Bronx</h3>
+                          <h3>Project Manhetten</h3>
                           <div className="meta">
                           <Clock size={12}/>
                           <span>{new Date('03.14.2027').toLocaleDateString().replaceAll('.', "/")}</span>

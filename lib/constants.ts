@@ -32,7 +32,10 @@ STRICT REQUIREMENTS (do not violate):
 2) **GEOMETRY MUST MATCH**: Walls, rooms, doors, and windows must follow the exact lines and positions in the plan. Do not shift or resize.
 3) **TOP‑DOWN ONLY**: Orthographic top‑down view. No perspective tilt.
 4) **CLEAN, REALISTIC OUTPUT**: Crisp edges, balanced lighting, and realistic materials. No sketch/hand‑drawn look.
-5) **NO EXTRA CONTENT**: Do not add rooms, furniture, or objects that are not clearly indicated by the plan.
+5) **NO EXTRA CONTENT**: Do not add rooms, that are not clearly indicated by the plan.
+6) **ADD FURNITURE OBJECTS**: If there is no furniture objects in plan add them, with only limitation by room grades.
+7) **NO DUPLICATING OBJECTS**: Do not duplicate furniture, bathrooms, tualetes.  
+
 
 STRUCTURE & DETAILS:
 - **Walls**: Extrude precisely from the plan lines. Consistent wall height and thickness.
